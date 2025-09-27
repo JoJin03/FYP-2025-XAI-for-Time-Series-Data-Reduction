@@ -13,13 +13,13 @@ Students (me!) will gain hands-on experience with time-series classification/reg
 ##  Project Structure
 FYP-2025-XAI-TimeSeries-DataReduction/
 ├── src/
-│   ├── baseline/      # first experiments (GunPoint, Coffee)
-│   └── xai/           # SHAP/LIME/Ablation explanations
-├── report/            # drafts, Overleaf exports
-├── presentations/     # slides for Trimester 1 + 2
-├── data/              # (optional) small datasets or links to UCR archive
-├── README.md          # project overview (this file)
-└── requirements.txt   # Python packages (aeon, shap, sklearn, etc.)
+│ ├── baseline/ # first experiments (GunPoint, Coffee)
+│ └── xai/ # SHAP/LIME/Ablation explanations
+├── report/ # drafts, Overleaf exports
+├── presentations/ # slides for Trimester 1 + 2
+├── data/ # (optional) small datasets or links to UCR archive
+├── README.md # project overview 
+└── requirements.txt # Python packages (aeon, shap, sklearn, etc.)
 
 
 ##  Setup (Windows / PowerShell)
