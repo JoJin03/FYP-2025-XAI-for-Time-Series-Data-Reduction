@@ -11,7 +11,7 @@ Students (me!) will gain hands-on experience with time-series classification/reg
 ---
 
 ##  Project Structure
-FYP-2025-XAI-TimeSeries-DataReduction/
+```FYP-2025-XAI-TimeSeries-DataReduction/
 ├── src/
 │ ├── baseline/ # first experiments (GunPoint, Coffee)
 │ └── xai/ # SHAP/LIME/Ablation explanations
@@ -20,13 +20,15 @@ FYP-2025-XAI-TimeSeries-DataReduction/
 ├── data/ # (optional) small datasets or links to UCR archive
 ├── README.md # project overview 
 └── requirements.txt # Python packages (aeon, shap, sklearn, etc.)
+```
 
 
 ##  Setup (Windows / PowerShell)
+```powershell
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 
 ##  Quick start
 - Open the folder in **VS Code**.
