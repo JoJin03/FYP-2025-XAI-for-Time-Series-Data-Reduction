@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.jupyterServerType": "local",
+  "python.analysis.typeCheckingMode": "basic",
+  "files.exclude": {
+    "**/.venv": true,
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true
+  }
+}
