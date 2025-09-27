@@ -11,7 +11,6 @@ Students (me!) will gain hands-on experience with time-series classification/reg
 ---
 
 ##  Project Structure
-```
 FYP-2025-XAI-TimeSeries-DataReduction/
 ├── src/
 │   ├── baseline/      # first experiments (GunPoint, Coffee)
@@ -21,16 +20,13 @@ FYP-2025-XAI-TimeSeries-DataReduction/
 ├── data/              # (optional) small datasets or links to UCR archive
 ├── README.md          # project overview (this file)
 └── requirements.txt   # Python packages (aeon, shap, sklearn, etc.)
-```
+
 
 ##  Setup (Windows / PowerShell)
-```powershell
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
-```
 
-If you add packages later: `pip freeze > requirements.txt`
 
 ##  Quick start
 - Open the folder in **VS Code**.
@@ -47,15 +43,6 @@ If you add packages later: `pip freeze > requirements.txt`
 - KDD24: Hands-on intro to TSC/TSR — https://aeon-tutorials.github.io/KDD-2024/
 - XAI books — https://christophmolnar.com/books
 
-##  Meetings (running log; newest first)
-- **Second meeting:** _TBD_
-- **First meeting (26 Sept 2025)** — Attendees: Georgiana Ifrim, Jo Jin Wong, Thach Le Nguyen  
-  Notes: discussed broader context and collaboration mode.
-
-Action items:
-- Thach — create & share Overleaf repo; propose weekly slot.
-- Georgiana — share GDoc with Jo.
-- Jo — create GitHub repo; start reading; prepare weekly agenda (done/doing/todo + questions).
 
 ##  Research plan (high-level)
 1. Baselines on UCR (GunPoint, Coffee): 1NN, RF, SVM.
@@ -65,5 +52,4 @@ Action items:
 5. Retrain & evaluate efficiency vs accuracy trade-off.
 6. Ablation & robustness checks; report.
 
----
-© 2025 Jo Jin Wong
+
