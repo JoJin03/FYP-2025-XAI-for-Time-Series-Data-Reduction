@@ -55,4 +55,4 @@ pip install -r requirements.txt
 6. Ablation & robustness checks; report.
 
 ## Project Workflow
-![Workflow Diagram](./docs/diagrams/Project-workflow-Diagram.drawio.svg)
+![Workflow Diagram](./docs/diagrams/Project-workflow-Diagram.svg)
